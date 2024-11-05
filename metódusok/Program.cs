@@ -4,7 +4,24 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			Koszonto();
+            Console.WriteLine(Osszeadas(10,90));
+        }
+		static void Koszonto()
+		{
+            Console.WriteLine("hello vilag");
+			Console.ReadLine();
+        }
+
+
+
+		static int Osszeadas(int a, int b)
+		{
+			int osszeg = a + b;
+			return osszeg;
+			/*return a + b;*/
 		}
+
+
 	}
 }
